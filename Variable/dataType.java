@@ -84,5 +84,44 @@ public class dataType{
         System.out.println(price);
 
 
+
+        // Calculation Expression 
+
+        int a=2;
+        float b=2.0f;
+        double c=30.2;
+        double result = a + b * c;
+        System.out.println("result :" + result);
+
+
+
+
+        // Narrowing Conversion 
+
+        double pi = 3.154876;
+        int circle =(int)pi;
+
+        System.out.println("circle : " + circle);
+
+
+        // Chain Conversion 
+
+        byte k = 10;
+        int h =k;
+        float u= h;
+        double s= u;
+
+        System.out.println("Chain  Conversion :" + s);
+
+
+        // Data loss
+
+            int large =130;
+            byte small=  (byte) large;
+
+            System.out.println("small" + small);
+
     }
+
+    
 }
